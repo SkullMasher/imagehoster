@@ -11,3 +11,4 @@ TO DO :
     - public or private image
   - frontend with yeoman
     - find a way to include php in a yeoman project...
+    - HTML5 drag & drop uploading
