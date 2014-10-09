@@ -1,7 +1,8 @@
 <?php
     require 'function.php';
     
-    echo "<pre>" . print_r($_FILES['files']) . '</pre>';
+    // echo "<pre>" . print_r($_FILES['files']) . '</pre>';
+
     if (!empty($_FILES['files']['name'][0])) {
         
         $files = $_FILES['files'];
@@ -36,32 +37,56 @@
                                 if (move_uploaded_file($file_tmp, $file_destination)) {
                                     $uploaded[$i] = "{$file_name} uploaded.";
                                 } else {
-                                    $failed[$i] = "{$file_name} OGM file upload fail.";
+                                    $failed[$i] = "<b>{$file_name}</b> OGM file upload fail.";
                                 }
                             } else {
                                 $failed[$i] = "OMG fichier beaucoup trop long. 150 Char max.";
                             }
                         } else {
-                            $failed[$i] = "Nom de fichier invalide {$file_name}";
+                            $failed[$i] = "Nom de fichier invalide <b>{$file_name}</b>";
                         }
                     } else {
-                        $failed[$i] = "{$file_name} fait plus de 10mo. {$file_error}";
+                        $failed[$i] = "<b>{$file_name}</b> fait plus de 10mo. {$file_error}";
                     }
                 } else {
-                    $failed[$i] = "{$file_name} erreur : {$file_error}";
+                    $failed[$i] = "<b>{$file_name}</b> erreur : {$file_error}";
                 }
             } else {
-                $failed[$i] = "{$file_name} extension de fichier '{$file_ext}' invalide";
+                $failed[$i] = "<b>{$file_name}</b> fichier '{$file_ext}' interdit.";
             }
 
         }
     } else {
-        echo "Pas de fichier";
+        array_push($failed, "Pas de Fichier");
     }
 
-    if (!empty($failed)) {
-        print_r($failed);
+
+?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ImageHosting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <?php 
+        // print_r($failed);
+        // print_r($uploaded);
+
+    if (!empty($failed)) { ?>
+        <div class="file-error">
+    <?php
+        foreach ($failed as $error) {
+            echo '<p>' . $error . '</p>';
+        }
+        echo "</div>";
     }
     if (!empty($uploaded)) {
-        print_r($uploaded);
+        foreach ($uploaded as $success) {
+            echo '<p class="desc"> <a href="#">imagelink</a></p>';
+        }
     }
+    ?>
+</body>
+</html>
