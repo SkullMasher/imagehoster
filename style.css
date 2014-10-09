@@ -1,0 +1,38 @@
+body {
+	background-color: #000;
+	background-image: url("img/pf_dsotm.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pfquote {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	color: white;
+	text-align: center;
+}
+.desc {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	color: white;
+	text-indent: 2em;
+}
+.desc a {
+	color: lightblue;
+	text-decoration: none;
+}
+
+form {
+	padding: 20px;
+	margin : 20px;
+	background-image: url("img/fresh_snow.png");
+	border-radius: 5px;
+}
+
+.form-auth {
+	width: 220px;
+}
+
+.form-upload-image {
+	width: 300px;
+}
+.form-upload-image input {
+	margin: 10px;
+}
