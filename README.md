@@ -7,7 +7,8 @@ TO DO :
   - Backend PHP
     - ~~File upload learning & basic implemantation~~
     - ~~Basic password protected app~~
-    - Upload link generation
+    - ~~Upload link generation~~
+    - ~~redirect index.php for some folder~~
     - class file to handle upload & image & stuff...
     - account system / user manadgement
     - public or private image functionality
