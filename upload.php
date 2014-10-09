@@ -74,6 +74,17 @@
         // print_r($failed);
         // print_r($uploaded);
 
+    // Image upload success
+    if (!empty($uploaded)) { ?>
+        <div class="file-success">
+    <?php
+        foreach ($uploaded as $success) {
+            echo '<p class="desc"> <a href="#">imagelink</a></p>';
+        }
+        echo "</div>";
+    }
+
+    // Image upload fail
     if (!empty($failed)) { ?>
         <div class="file-error">
     <?php
@@ -81,11 +92,6 @@
             echo '<p>' . $error . '</p>';
         }
         echo "</div>";
-    }
-    if (!empty($uploaded)) {
-        foreach ($uploaded as $success) {
-            echo '<p class="desc"> <a href="#">imagelink</a></p>';
-        }
     }
     ?>
 </body>

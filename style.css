@@ -1,3 +1,4 @@
+/* Gheto default settings */
 body {
 	background-color: #000;
 	background-image: url("img/pf_dsotm.jpg");
@@ -5,6 +6,16 @@ body {
 	background-size: cover;
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
+
+a:link, a:visited {
+color: lightblue;
+text-decoration: none;
+}
+a:hover, a:active {
+color: blue;
+text-decoration: underline;
+}
+
 .pfquote {
 	color: white;
 	text-align: center;
@@ -12,14 +23,6 @@ body {
 .desc {
 	color: white;
 	text-indent: 2em;
-}
-.desc a {
-	color: lightblue;
-	text-decoration: none;
-}
-.desc a:hover {
-	color: blue;
-	text-decoration: none;
 }
 
 form {
@@ -39,6 +42,20 @@ form {
 .form-upload-image input {
 	margin: 10px;
 }
+
+.file-success {
+	padding: 5px 10px;
+	margin : 10px;
+	background-image: url("img/fresh_snow.png");
+	opacity: 0.75;
+	border-radius: 5px;
+	border: 2px solid hsla(126, 100%, 50%, 0.75);
+	width: 40%;
+}
+.file-success p {
+
+}
+
 
 .file-error {
 	padding: 5px 10px;
