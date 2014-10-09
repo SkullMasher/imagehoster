@@ -8,7 +8,7 @@ body {
 }
 
 a:link, a:visited {
-color: lightblue;
+color: #0f77ff;
 text-decoration: none;
 }
 a:hover, a:active {
@@ -45,7 +45,7 @@ form {
 
 .file-success {
 	padding: 5px 10px;
-	margin : 10px;
+	margin : 20px 50px;
 	background-image: url("img/fresh_snow.png");
 	opacity: 0.75;
 	border-radius: 5px;
@@ -59,7 +59,7 @@ form {
 
 .file-error {
 	padding: 5px 10px;
-	margin : 10px;
+	margin : 20px 50px;
 	background-image: url("img/fresh_snow.png");
 	opacity: 0.75;
 	border-radius: 5px;

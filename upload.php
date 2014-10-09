@@ -1,6 +1,7 @@
 <?php
     require 'function.php';
-    
+    echo rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+    die();
     // echo "<pre>" . print_r($_FILES['files']) . '</pre>';
 
     if (!empty($_FILES['files']['name'][0])) {
@@ -32,10 +33,10 @@
                                 // Renaming file and adding file extension
                                 $file_rename = mt_rand_str(6) . '.' . $file_ext;
                                 // File will be stored in this place.
-                                $file_destination = 'uploads/' . $file_rename;
+                                $file_destination = 'i/' . $file_rename;
 
                                 if (move_uploaded_file($file_tmp, $file_destination)) {
-                                    $uploaded[$i] = "{$file_name} uploaded.";
+                                    $uploaded[$i] = "<a href=\"" . $file_destination ."\">" . $_SERVER['HTTP_HOST'] . $file_destination . "</a>";
                                 } else {
                                     $failed[$i] = "<b>{$file_name}</b> OGM file upload fail.";
                                 }
@@ -79,7 +80,7 @@
         <div class="file-success">
     <?php
         foreach ($uploaded as $success) {
-            echo '<p class="desc"> <a href="#">imagelink</a></p>';
+            echo $success;
         }
         echo "</div>";
     }
