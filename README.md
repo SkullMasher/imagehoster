@@ -9,6 +9,7 @@ TO DO :
     - ~~Basic password protected app~~
     - ~~Upload link generation~~
     - ~~redirect index.php for some folder~~
+    - Get Yeoman to work with php
     - class file to handle upload & image & stuff...
     - account system / user manadgement
     - public or private image functionality
