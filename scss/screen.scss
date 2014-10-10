@@ -1,7 +1,15 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
 /* Gheto default settings */
+
 body {
 	background-color: #000;
-	background-image: url("img/pf_dsotm.jpg");
+	background-image: url("../img/pf_dsotm.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
@@ -28,7 +36,7 @@ text-decoration: underline;
 form {
 	padding: 20px;
 	margin : 20px;
-	background-image: url("img/fresh_snow.png");
+	background-image: url("../img/fresh_snow.png");
 	border-radius: 5px;
 }
 
@@ -46,7 +54,7 @@ form {
 .file-success {
 	padding: 5px 10px;
 	margin : 20px 50px;
-	background-image: url("img/fresh_snow.png");
+	background-image: url("../img/fresh_snow.png");
 	opacity: 0.75;
 	border-radius: 5px;
 	border: 2px solid hsla(126, 100%, 50%, 0.75);
@@ -60,7 +68,7 @@ form {
 .file-error {
 	padding: 5px 10px;
 	margin : 20px 50px;
-	background-image: url("img/fresh_snow.png");
+	background-image: url("../img/fresh_snow.png");
 	opacity: 0.75;
 	border-radius: 5px;
 	border: 2px solid hsla(360, 100%, 50%, 0.75);
