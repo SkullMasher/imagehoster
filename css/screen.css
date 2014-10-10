@@ -68,40 +68,40 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* Gheto default settings */
-/* line 10, ../scss/screen.scss */
+/* line 11, ../scss/screen.scss */
 body {
   background-color: #000;
   background-image: url("../img/pf_dsotm.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-family: Merriweather;
 }
 
-/* line 18, ../scss/screen.scss */
+/* line 19, ../scss/screen.scss */
 a:link, a:visited {
   color: #0f77ff;
   text-decoration: none;
 }
 
-/* line 22, ../scss/screen.scss */
+/* line 23, ../scss/screen.scss */
 a:hover, a:active {
   color: blue;
   text-decoration: underline;
 }
 
-/* line 27, ../scss/screen.scss */
+/* line 28, ../scss/screen.scss */
 .pfquote {
   color: white;
   text-align: center;
 }
 
-/* line 31, ../scss/screen.scss */
+/* line 32, ../scss/screen.scss */
 .desc {
   color: white;
   text-indent: 2em;
 }
 
-/* line 36, ../scss/screen.scss */
+/* line 37, ../scss/screen.scss */
 form {
   padding: 20px;
   margin: 20px;
@@ -109,22 +109,22 @@ form {
   border-radius: 5px;
 }
 
-/* line 43, ../scss/screen.scss */
+/* line 44, ../scss/screen.scss */
 .form-auth {
   width: 220px;
 }
 
-/* line 47, ../scss/screen.scss */
+/* line 48, ../scss/screen.scss */
 .form-upload-image {
   width: 300px;
 }
 
-/* line 50, ../scss/screen.scss */
+/* line 51, ../scss/screen.scss */
 .form-upload-image input {
   margin: 10px;
 }
 
-/* line 54, ../scss/screen.scss */
+/* line 55, ../scss/screen.scss */
 .file-success {
   padding: 5px 10px;
   margin: 20px 50px;
@@ -135,7 +135,7 @@ form {
   width: 40%;
 }
 
-/* line 68, ../scss/screen.scss */
+/* line 69, ../scss/screen.scss */
 .file-error {
   padding: 5px 10px;
   margin: 20px 50px;

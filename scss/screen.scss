@@ -4,6 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "base";
 
 /* Gheto default settings */
 
@@ -12,7 +13,7 @@ body {
 	background-image: url("../img/pf_dsotm.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-family: Merriweather;
 }
 
 a:link, a:visited {

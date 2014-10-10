@@ -37,6 +37,7 @@ Thumbs.db
 # Custom #
 ##########
 *.bak
+bak/
 *.sublime-project
 *.swp
-.sass-cache
+.sass-cache/
