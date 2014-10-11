@@ -67,7 +67,7 @@
 <head>
     <meta charset="UTF-8">
     <title>ImageHosting</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <?php 
