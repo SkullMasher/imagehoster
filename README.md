@@ -24,6 +24,9 @@ TO DO :
     - Ajax file upload
     - Find a design
     - Responsive Design / Media Queries
+  - Securuty :
+    - Research on null byte. http://php.net/manual/fr/security.filesystem.nullbytes.php#security.filesystem.nullbytes
+
 
 Tech used so far :
 H5BP/initialzr : http://www.initializr.com/
