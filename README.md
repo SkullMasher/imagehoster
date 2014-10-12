@@ -16,6 +16,7 @@ TO DO :
     - account system / user manadgement
     - public or private image functionality
     - URL Rewriting
+    - Compare generated filename with SQL request
   - FrontEnd Yeoman
     - ~~find a way to include php in a yeoman project... NO YEOMAN~~
     - ~~SAAS/Compass integration~~
