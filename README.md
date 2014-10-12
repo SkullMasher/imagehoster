@@ -15,6 +15,7 @@ TO DO :
     - class file to handle upload & image & stuff...
     - account system / user manadgement
     - public or private image functionality
+    - URL Rewriting
   - FrontEnd Yeoman
     - ~~find a way to include php in a yeoman project... NO YEOMAN~~
     - ~~SAAS/Compass integration~~
