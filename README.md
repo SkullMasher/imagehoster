@@ -1,6 +1,9 @@
 imagehoster
 ===========
 
+## DEPRECATED
+This repo is now located at [heartless-gaming/xmasher](https://github.com/heartless-gaming/xmasher). I'll keep this up for posterity because it was an awesome 24h hour project. Want to become a programmer ? First do it. Then do it right. Then do it better.
+
 Image hosting service in PHP
 
 TO DO :
